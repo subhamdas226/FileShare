@@ -41,25 +41,28 @@ import React from 'react';
 //     );
 //   }
 
-function DrawerHomeTabs() {
-  return (
-    <Tabs.Navigator>
-      {/* <Tabs.Screen name="HomeScreen" component={TabHomeStack} />
-      <Tabs.Screen name="Details" component={TabDetailStack} />
-      <Tabs.Screen name="Settings" component={TabSettingsStack} /> */}
-    </Tabs.Navigator>
-  );
-}
+// function DrawerHomeTabs() {
+//   return (
+//     <Tabs.Navigator>
+//       <Tabs.Screen name="HomeScreen" component={TabHomeStack} />
+//       <Tabs.Screen name="Details" component={TabDetailStack} />
+//       <Tabs.Screen name="Settings" component={TabSettingsStack} />
+//     </Tabs.Navigator>
+//   );
+// }
 
 const Router = () => {
   return (
-    <NavigationContainer>
-      <Drawer.Navigator initialRouteName="Home">
-        <Drawer.Screen name="Home" component={DrawerHomeTabs} />
-        {/* <Drawer.Screen name="Profile" component={ProfileScreen} />
-        <Drawer.Screen name="About" component={AboutScreen} /> */}
-      </Drawer.Navigator>
-    </NavigationContainer>
+    // <NavigationContainer>
+    //   <Drawer.Navigator initialRouteName="Home">
+    //     <Drawer.Screen name="Home" component={DrawerHomeTabs} />
+    //     <Drawer.Screen name="Profile" component={ProfileScreen} />
+    //     <Drawer.Screen name="About" component={AboutScreen} />
+    //   </Drawer.Navigator>
+    // </NavigationContainer>
+    <View>
+        <Text>Riuter</Text>
+    </View>
   );
 };
 
